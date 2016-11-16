@@ -28,10 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbApple = new System.Windows.Forms.Label();
             this.btValider = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +50,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(97, 39);
+            this.label2.Location = new System.Drawing.Point(97, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 13);
             this.label2.TabIndex = 1;
@@ -56,7 +60,7 @@
             // 
             this.lbApple.AutoSize = true;
             this.lbApple.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbApple.Location = new System.Drawing.Point(28, 87);
+            this.lbApple.Location = new System.Drawing.Point(28, 34);
             this.lbApple.Name = "lbApple";
             this.lbApple.Size = new System.Drawing.Size(244, 20);
             this.lbApple.TabIndex = 2;
@@ -64,24 +68,48 @@
             // 
             // btValider
             // 
-            this.btValider.Location = new System.Drawing.Point(100, 186);
+            this.btValider.Location = new System.Drawing.Point(100, 215);
             this.btValider.Name = "btValider";
             this.btValider.Size = new System.Drawing.Size(75, 23);
             this.btValider.TabIndex = 3;
             this.btValider.Text = "Valider";
             this.btValider.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(100, 69);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(106, 99);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(39, 181);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(215, 20);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Give up Winsh... Windows";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btValider);
             this.Controls.Add(this.lbApple);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +121,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbApple;
         private System.Windows.Forms.Button btValider;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
