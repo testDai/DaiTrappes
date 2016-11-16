@@ -65,12 +65,14 @@
             // 
             // btValider
             // 
+            this.btValider.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btValider.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btValider.Location = new System.Drawing.Point(100, 186);
             this.btValider.Name = "btValider";
             this.btValider.Size = new System.Drawing.Size(75, 23);
             this.btValider.TabIndex = 3;
             this.btValider.Text = "Valider";
-            this.btValider.UseVisualStyleBackColor = true;
+            this.btValider.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
