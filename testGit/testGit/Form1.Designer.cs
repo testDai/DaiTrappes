@@ -33,9 +33,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbApple = new System.Windows.Forms.Label();
             this.btValider = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -56,11 +53,11 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Bonjour tout le monde";
             // 
-            // lbApple
+            // btValid
             // 
             this.lbApple.AutoSize = true;
             this.lbApple.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbApple.Location = new System.Drawing.Point(28, 34);
+            this.lbApple.Location = new System.Drawing.Point(28, 87);
             this.lbApple.Name = "lbApple";
             this.lbApple.Size = new System.Drawing.Size(244, 20);
             this.lbApple.TabIndex = 2;
@@ -68,7 +65,7 @@
             // 
             // btValider
             // 
-            this.btValider.Location = new System.Drawing.Point(100, 215);
+            this.btValider.Location = new System.Drawing.Point(100, 186);
             this.btValider.Name = "btValider";
             this.btValider.Size = new System.Drawing.Size(75, 23);
             this.btValider.TabIndex = 3;
@@ -101,8 +98,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btValider);
             this.Controls.Add(this.lbApple);
             this.Controls.Add(this.label2);
@@ -121,8 +116,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbApple;
         private System.Windows.Forms.Button btValider;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label3;
     }
 }
 
