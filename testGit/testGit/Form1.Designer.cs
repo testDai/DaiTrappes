@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbApple = new System.Windows.Forms.Label();
+            this.btValider = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -60,11 +61,21 @@
             this.lbApple.TabIndex = 2;
             this.lbApple.Text = "Apple... the m****";
             // 
+            // btValider
+            // 
+            this.btValider.Location = new System.Drawing.Point(100, 186);
+            this.btValider.Name = "btValider";
+            this.btValider.Size = new System.Drawing.Size(75, 23);
+            this.btValider.TabIndex = 3;
+            this.btValider.Text = "Valider";
+            this.btValider.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btValider);
             this.Controls.Add(this.lbApple);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -80,6 +91,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbApple;
+        private System.Windows.Forms.Button btValider;
     }
 }
 
