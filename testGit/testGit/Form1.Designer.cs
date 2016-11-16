@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lbApple = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,21 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Bonjour tout le monde";
             // 
+            // lbApple
+            // 
+            this.lbApple.AutoSize = true;
+            this.lbApple.Location = new System.Drawing.Point(117, 142);
+            this.lbApple.Name = "lbApple";
+            this.lbApple.Size = new System.Drawing.Size(88, 13);
+            this.lbApple.TabIndex = 2;
+            this.lbApple.Text = "Apple... The best";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lbApple);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbApple;
     }
 }
 
