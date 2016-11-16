@@ -54,11 +54,12 @@
             // lbApple
             // 
             this.lbApple.AutoSize = true;
-            this.lbApple.Location = new System.Drawing.Point(117, 142);
+            this.lbApple.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbApple.Location = new System.Drawing.Point(28, 87);
             this.lbApple.Name = "lbApple";
-            this.lbApple.Size = new System.Drawing.Size(88, 13);
+            this.lbApple.Size = new System.Drawing.Size(244, 20);
             this.lbApple.TabIndex = 2;
-            this.lbApple.Text = "Apple... the m****";
+            this.lbApple.Text = "Apple... the best of the BEST";
             // 
             // Form1
             // 
