@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbApple = new System.Windows.Forms.Label();
             this.btValider = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -71,12 +72,23 @@
             this.btValider.Text = "Valider";
             this.btValider.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(65, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Window a l\'ouest ^^ ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btValider);
             this.Controls.Add(this.lbApple);
             this.Controls.Add(this.label2);
@@ -94,6 +106,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbApple;
         private System.Windows.Forms.Button btValider;
+        private System.Windows.Forms.Label label3;
     }
 }
 
