@@ -58,7 +58,7 @@
             this.lbApple.Name = "lbApple";
             this.lbApple.Size = new System.Drawing.Size(88, 13);
             this.lbApple.TabIndex = 2;
-            this.lbApple.Text = "Apple... The best";
+            this.lbApple.Text = "Apple... the m****";
             // 
             // Form1
             // 
